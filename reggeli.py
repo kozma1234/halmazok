@@ -10,14 +10,19 @@ print(reggeli - ebed)
    
 print(reggeli ^ ebed)
 
+gyumolcskosar = ['eper', 'szilva', 'alma', 'eper']
 
+fajta = set()
+for gyumolcs in gyumolcskosar:
+    fajta.add(gyumolcs)
+print(fajta)
 
 reggeli.add('lekvár')
 
 reggeli.pop()
     
 
-reggeli.remove('sajt')
+# reggeli.remove('sajt')
 
 reggeli.discard('sajt')
 
@@ -29,9 +34,8 @@ reggeli.discard('sajt')
     - a halmaz eleme maga nem változtatható meg
     '''
     
-
 reggeli = {'tea', 'vaj', 'piritós'}
-
 ebed = set()
-
 ebed = set(['halászlé', 'kenyér', True]) 
+
+#1feladat
